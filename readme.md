@@ -1,5 +1,16 @@
 # Repro Steps
 
+1. Stert the project
+2. Verify it runs on http://localhost:5216/
+3. `curl http://localhost:5216/part1`
+4. Inspect console logs to see traceparent flag being sent as -00
+
+<br />
+<br />
+
+
+# ~~Old Repro Steps (OTEL)~~
+
 1. Start the project
 2. Verify it runs on http://localhost:5216/weatherforecast or adjusts ports for later steps
 3. `curl http://localhost:5216/weatherforecast`
